@@ -13,15 +13,15 @@
 }
 
 .home .slide .content span {
-  font-size: 2rem;
-  color: var(--cor_t_a);
-  font-weight: 400;
-  margin-left: 3rem;
+  font-size: 3rem;
+  color: var(--cor_f_a);
+  font-weight: 700;
+  margin-left: 20rem;
   /* display: block; */
 }
 
 .home .slide .content h3 {
-  font-size: 5rem;
+  font-size: 4rem;
   padding: 1rem 0;
 }
 
@@ -32,8 +32,8 @@
   padding: 1rem;
   font-size: 1.5rem;
   letter-spacing: 0.25rem;
-  color: red;
-  font-weight: 400;
+  color: var(--cor_f_a);
+  font-weight: 700;
 }
 .home .slide .content_serv p:hover{
   background-color: var(--cor_f_a);
