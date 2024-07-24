@@ -1,0 +1,43 @@
+.home .slide {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  background-size: cover !important;
+  background-position: center !important;
+  padding: 2rem 9%;
+  margin-top: 1rem;
+}
+
+.home .slide .content {
+  width: 60rem;
+}
+
+.home .slide .content span {
+  font-size: 2rem;
+  color: var(--cor_t_a);
+  font-weight: 400;
+  margin-left: 3rem;
+  /* display: block; */
+}
+
+.home .slide .content h3 {
+  font-size: 5rem;
+  padding: 1rem 0;
+}
+
+.home .slide .content_serv p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.25rem;
+  color: red;
+  font-weight: 400;
+}
+.home .slide .content_serv p:hover{
+  background-color: var(--cor_f_a);
+  border-radius: .5rem;
+  gap: 1rem;
+}
+

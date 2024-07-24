@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@200;300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    outline: none; 
+    text-transform: capitalize; 
+    transition: 2s all;
+    color: #fff;
+}
+
+ul li {
+    list-style: none; 
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    font-size: 62,5%;
+    /* scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    overflow-x: hidden; esconde a barra de rolagem */
+}
+
+body{
+    background-color: #333;
+}
+
