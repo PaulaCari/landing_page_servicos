@@ -1,36 +1,35 @@
 .compromisso {
-padding-top: .5rem;  
+    padding-top: .5rem;  
 }
 
 .compromisso .container {
-max-width: 1200px; /* Define a largura máxima do container */
-margin: 0 auto; /* Centraliza o container */
+    max-width: 1200px; 
+    margin: 0 auto; 
 }
 
 .compromisso .content {
-display: flex; /* Define o container das items como flexbox */
-justify-content: space-between; /* Distribui as items uniformemente */
-align-items: center;
-text-align: center;
-gap: 2rem; /* Espaçamento entre as items */
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    text-align: center;
+    gap: 2rem; 
 
 }
 
 .compromisso .item {
-width: 48%; /* Define a largura das items */
-text-align: center; /* Alinha o texto da item à esquerda */
+    width: 48%; 
+    text-align: center; 
 
 }
 
 .compromisso .item h3 {
-font-size: 2rem; /* Tamanho da fonte do título da item */
-margin-bottom: 1rem; /* Espaçamento entre o título e a imagem */
+    font-size: 2rem; 
+    margin-bottom: 1rem; 
 }
 
 .compromisso .item img {
-width: 25%; /* Ajusta a imagem à largura da item */
-
-margin-bottom: 1rem; /* Espaçamento entre a imagem e a descrição */
+    width: 25%; 
+    margin-bottom: 1rem; 
 }
 .compromisso .button-container{ 
     display: flex;
