@@ -1,53 +1,65 @@
-.banner{
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-    url(../img/fvr.png) no-repeat;
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/fvr.png) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    text-align: center;  
+    text-align: center;
     padding-top: 5em;
-}
-
-.banner span{
-    font-size: 2rem;
-}
-
-.banner h3{
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .banner h3 {
     font-size: 2.5rem;
     text-transform: uppercase;
     padding-top: 1.5rem;
-    color: var(--cor_tex2);  
-}
-.banner p{
+    color: var(--cor_tex2);
+  }
+  
+  .banner p {
     margin-top: 1rem;
-}
-
-.banner .misao_visao {
+  }
+  
+  .banner .misao_visao {
     font-size: 1.25rem;
     line-height: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 2rem;
-}
-
-.banner .misao_visao .misao .visao {
-    display: block;
+  }
+  
+  .banner .misao_visao article {
+    display: flex;
+    flex-direction: column; /* Define a direção como coluna */
     text-align: center;
-    justify-content: center;  
-}
-
-.banner .misao_visao .misao{
-    padding: 0 3rem;  
-}
-.banner .misao_visao .visao{
-    padding: 0 2rem;  
-}
-
-.banner .misao_visao p{
-    letter-spacing: 0.2rem;  
-}
-
-.banner a{
-   margin-top: 3rem;
-}
+    justify-content: center;
+    width: 50%;
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+  }
+  
+  .banner .misao_visao .misao {
+    padding: 4rem 3rem;
+  }
+  
+  .banner .misao_visao .visao {
+    padding: 0 2rem;
+  }
+  
+  .banner .misao_visao i {
+    color: var(--cor_f_a);
+  }
+  
+  .banner .misao_visao p {
+    letter-spacing: 0.2rem;
+    padding-top: 1rem;
+    line-height: 2;
+    font-size: 1rem;
+  }
+  
+  .banner a {
+    margin-top: 1rem;
+  }
