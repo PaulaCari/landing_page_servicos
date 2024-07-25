@@ -1,5 +1,5 @@
 .footer {
-    background-color: var(--cor_fundo);
+  background-color: var(--cor_sobre);
     display: flex; 
     flex-wrap: wrap; 
     justify-content: space-around;
@@ -100,11 +100,13 @@
   align-items: center;
 }
 
-.footer .boxcontainer .copy-right{
+.footer .boxcontainer .copy-right p{
     padding: 1rem;
-    border-top: .1rem solid; 
+    border-top: .1rem solid;
+    color: #aaa; 
+   
 }
- 
+
 .whats{
   position: fixed;
   bottom: 1rem;

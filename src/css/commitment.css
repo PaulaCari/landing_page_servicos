@@ -1,0 +1,41 @@
+.compromisso {
+padding-top: .5rem;  
+}
+
+.compromisso .container {
+max-width: 1200px; /* Define a largura máxima do container */
+margin: 0 auto; /* Centraliza o container */
+}
+
+.compromisso .content {
+display: flex; /* Define o container das items como flexbox */
+justify-content: space-between; /* Distribui as items uniformemente */
+align-items: center;
+text-align: center;
+gap: 2rem; /* Espaçamento entre as items */
+
+}
+
+.compromisso .item {
+width: 48%; /* Define a largura das items */
+text-align: center; /* Alinha o texto da item à esquerda */
+
+}
+
+.compromisso .item h3 {
+font-size: 2rem; /* Tamanho da fonte do título da item */
+margin-bottom: 1rem; /* Espaçamento entre o título e a imagem */
+}
+
+.compromisso .item img {
+width: 25%; /* Ajusta a imagem à largura da item */
+
+margin-bottom: 1rem; /* Espaçamento entre a imagem e a descrição */
+}
+.compromisso .button-container{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
