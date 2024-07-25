@@ -21,7 +21,7 @@
 
 .footer .boxcontainer .title{
   width: 100%;
-  background-color:rgb(255, 128, 0);
+  background-color:red;
   padding: 2rem;
 }
 
@@ -68,7 +68,7 @@
 
 .footer .boxcontainer .box a:hover {
   text-decoration: underline; 
-  color: rgb(255, 128, 0);
+  color: redrgb(255, 128, 0);
 }
 
 .footer .boxcontainer .share {
@@ -80,7 +80,7 @@
 
 .footer .boxcontainer .share a {
   font-size: 1.2rem;
-  color: rgb(255, 128, 0);
+  color: red;
   margin: 0 0.5rem;
 }
 

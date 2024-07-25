@@ -11,12 +11,18 @@
     font-size: 3rem;
     margin-bottom: 1rem;
   }
+  .banner h1 span{
+    color: red;
+  }
   
   .banner h3 {
     font-size: 2.5rem;
     text-transform: uppercase;
     padding-top: 1.5rem;
     color: var(--cor_tex2);
+  }
+  .banner h3 i{
+    
   }
   
   .banner p {
@@ -50,7 +56,7 @@
   }
   
   .banner .misao_visao i {
-    color: var(--cor_f_a);
+    color: red;
   }
   
   .banner .misao_visao p {

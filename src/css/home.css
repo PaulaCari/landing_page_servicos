@@ -14,7 +14,7 @@
 
 .home .slide .content span {
   font-size: 3rem;
-  color: var(--cor_f_a);
+  color: red;
   font-weight: 700;
   margin-left: 15rem;
   /* display: block; */
@@ -23,6 +23,7 @@
 .home .slide .content h3 {
   font-size: 4rem;
   padding: 1rem 0;
+ 
 }
 
 .home .slide .content_serv p{
@@ -32,11 +33,11 @@
   padding: 1rem;
   font-size: 1.5rem;
   letter-spacing: 0.25rem;
-  color: var(--cor_f_a);
+  color: red;
   font-weight: 700;
 }
 .home .slide .content_serv p:hover{
-  background-color: var(--cor_f_a);
+  background-color: #333;
   border-radius: .5rem;
   gap: 1rem;
 }
