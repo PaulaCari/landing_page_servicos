@@ -24,7 +24,6 @@
     border-radius: .5rem;
 }
 
-
 .services .box-container{
     
     display: grid;
@@ -68,6 +67,14 @@
     color: #aaa;
     padding: 1rem 0;
 }
+
+.services .button-container{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
 
 
 
