@@ -64,33 +64,49 @@
     </nav>
   </header>
 
-  <main>
-    <section id="home" class="home">
-      <div class="swiper home-slider">
-        <div class="swiper-wrapper">
+<main>
 
-          <div class="swiper-slide slide" style="background: url(./src/img/maqCorte-fundo.png) no-repeat;">
+  <section id="home" class="home">
+    <div class="swiper home-slider">
+      <div class="swiper-wrapper">
 
-            <div class="content">
-              <span>TALHARIA</span>
-              <h3>Prestadora de Serviços.</h3>
-              <!-- <a href="#" class="btn">Ver todos os serviços</a> -->
-            </div>
+        <div class="swiper-slide slide" style="background: url(./src/img/maqCorte-fundo.png) no-repeat;">
 
-            <div class="content_serv">
-              <p>digitalização.</p>
-              <p>graduação.</p>
-              <p>encaixe.</p>
-              <p>plotagem.</p>
-              <p>corte.</p>
-              <p>entrega.</p>
-
-            </div>
+          <div class="content">
+            <span>TALHARIA</span>
+            <h3>Prestadora de Serviços.</h3>
+            <!-- <a href="#" class="btn">Ver todos os serviços</a> -->
+          </div>
+          <div class="content_serv">
+            <p class="animate-paragraph">digitalização.</p>
+            <p class="animate-paragraph">graduação.</p>
+            <p class="animate-paragraph">encaixe.</p>
+            <p class="animate-paragraph">plotagem.</p>
+            <p class="animate-paragraph">corte.</p>
+            <p class="animate-paragraph">entrega.</p>
           </div>
         </div>
-        <div class="swiper-pagination"></div>
+
+        <div class="swiper-slide slide" style="background: url(./src/img/efesto.png) no-repeat;">
+
+          <div class="content">
+            <span>TALHARIA</span>
+            <h3>Prestadora de Serviços.</h3>
+
+          </div>
+        </div>
+
+        <div class="swiper-slide slide" style="background: url(./src/img/plotter.jpg) no-repeat;">
+
+          <div class="content">
+            <span>TALHARIA</span>
+            <h3>Prestadora de Serviços.</h3>
+          </div>
+        </div>
       </div>
-    </section>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
 
 
     <section id="services" class="services">
@@ -143,11 +159,11 @@
           </div>
         </div>
       </div>
-      <div class="button-container">  
+      <div class="button-container">
         <a href="#" class="btn">Ver todos os serviços</a>
       </div>
     </section>
-    
+
 
 
     <section class="banner">
@@ -194,7 +210,7 @@
           </div>
         </div>
       </div>
-      <div class="button-container">  
+      <div class="button-container">
         <a href="#" class="btn">Saiba sobre nós</a>
       </div>
     </section>
@@ -256,14 +272,19 @@
 
           <div class="whats">
             <a href="https://wa.me/554792273328?text=Seja Bem-vindo na FVR Textil Talharia!" target="_blank">
-            <img src="./src/img/whatsapp.png" width="55" alt="Fale conosco " title="Fale Conosco " >
+              <img src="./src/img/whatsapp.png" width="55" alt="Fale conosco " title="Fale Conosco ">
             </a>
           </div>
-   
+
     </footer>
   </main>
 
   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-  <script src="./main.js"></script>
+
+  <!-- biblioteca gsap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+
+  <script src="./src/js/main.js"></script>
 </body>
+
 </html>
